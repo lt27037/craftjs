@@ -23,7 +23,7 @@ const App = () => {
             <Grid item >
               <Topbar />
             </Grid>
-            <Grid item xs>
+            <Grid item xs={5}>
               <Frame>
                 <Element is={Container} padding={5} background="#eee" canvas>
                   <Card />
